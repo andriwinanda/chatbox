@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./chatbox.css">
+  <script src="./chatbox.js"></script>
+
+</head>
+
+<body>
+  <div id="chat-circle" class="btn btn-raised">
+    <div id="chat-overlay"></div>
+    <i class="fa fa-comments"></i>
+  </div>
+
+  <div class="chat-box">
+    <div class="chat-box-header">
+      Customer Service
+      <span class="chat-box-toggle">&#xd7;</span>
+    </div>
+    <div class="chat-box-body">
+      <div class="chat-box-overlay">
+      </div>
+      <div class="chat-logs">
+
+      </div>
+      <!--chat-log -->
+      <div class="chat-input">
+        <form>
+          <input type="text" id="chat-input" placeholder="Send a message..." />
+          <button type="submit" class="chat-submit" id="chat-submit"><i class="fa fa-send"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
